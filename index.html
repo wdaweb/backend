@@ -74,11 +74,13 @@
 							<i class="fas fa-book-open"></i> 課程內容
 						</a>
 					</li>
-					<li class="dropdown nav-item">
-						<a href="#" onclick="scr('#collections');" class="nav-link">
-							<i class="fas fa-globe"></i> 學員作品
-						</a>
-					</li>
+					<!-- 
+						<li class="dropdown nav-item">
+							<a href="#" onclick="scr('#collections');" class="nav-link">
+								<i class="fas fa-globe"></i> 學員作品
+							</a>
+						</li> 
+					-->
 					<li class="dropdown nav-item">
 						<a href="#" onclick="scr('#discord');" class="nav-link">
 							<i class="fab fa-discord"></i> 課程諮詢
@@ -114,25 +116,7 @@
 					<li class="nav-item">
 						<a class="nav-link active" href="#general" role="tab" data-toggle="tab">
 							<i class="material-icons">assignment</i>
-							共通課程
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#fe" role="tab" data-toggle="tab">
-							<i class="material-icons">web</i>
-							前端課程
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#be" role="tab" data-toggle="tab">
-							<i class="material-icons">code</i>
-							後端課程
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#book" role="tab" data-toggle="tab">
-							<i class="material-icons">menu_book</i>
-							數位教材
+							課程簡介
 						</a>
 					</li>
 					<li class="nav-item">
@@ -144,7 +128,7 @@
 				</ul>
 				<div class="tab-content tab-space">
 					<div class="tab-pane active" id="general">
-						<div class="row">
+						<div class="row justify-content-center">
 							<div class="col-md-3">
 								<div class="card card-product card-plain">
 									<div class="card-header card-header-image">
@@ -224,6 +208,51 @@
 								<div class="card card-product card-plain">
 									<div class="card-header card-header-image">
 										<a href="javascript:void(0)">
+											<img src="./index_assets/img/php.jpg" alt="">
+										</a>
+									</div>
+									<div class="card-body text-center">
+										<h4 class="card-title">
+											<a href="javascript:void(0)">PHP</a>
+										</h4>
+										<p class="card-description">PHP 為可快速開發的腳本語言。在網站資料處理應用上被廣泛運用。</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card card-product card-plain">
+									<div class="card-header card-header-image">
+										<a href="javascript:void(0)">
+											<img src="./index_assets/img/mysql.jpg" alt="">
+										</a>
+									</div>
+									<div class="card-body text-center">
+										<h4 class="card-title">
+											<a href="javascript:void(0)">MySQL</a>
+										</h4>
+										<p class="card-description">MySQL 是一個小型關聯式資料庫管理系統，被廣泛地應用在中小型網站中。</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card card-product card-plain">
+									<div class="card-header card-header-image">
+										<a href="javascript:void(0)">
+											<img src="./index_assets/img/laravel.jpg" alt="">
+										</a>
+									</div>
+									<div class="card-body text-center">
+										<h4 class="card-title">
+											<a href="javascript:void(0)">Laravel</a>
+										</h4>
+										<p class="card-description">Laravel 是近年來相當熱門的PHP框架，用於製作網頁的 MVC 架構。</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card card-product card-plain">
+									<div class="card-header card-header-image">
+										<a href="javascript:void(0)">
 											<img src="./index_assets/img/ps.jpg" alt="">
 										</a>
 									</div>
@@ -267,185 +296,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane" id="fe">
-						<div class="row justify-content-center">
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="javascript:void(0)">
-											<img src="./index_assets/img/node.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="javascript:void(0)">Node.js</a>
-										</h4>
-										<p class="card-description">Node.js 是能夠在伺服器端運行 JavaScript 的跨平台執行環境。</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="javascript:void(0)">
-											<img src="./index_assets/img/vue.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="javascript:void(0)">Vue.js</a>
-										</h4>
-										<p class="card-description">Vue.js 是一個用於建立使用者介面和單頁應用的 JavaScript 框架。</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="javascript:void(0)">
-											<img src="./index_assets/img/mongo.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="javascript:void(0)">MongoDB</a>
-										</h4>
-										<p class="card-description">MongoDB 是文件導向的資料庫系統，為目前最靈活易用的 NoSQL 之一。</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane" id="be">
-						<div class="row justify-content-center">
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="javascript:void(0)">
-											<img src="./index_assets/img/php.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="javascript:void(0)">PHP</a>
-										</h4>
-										<p class="card-description">PHP 為可快速開發的腳本語言。在網站資料處理應用上被廣泛運用。</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="javascript:void(0)">
-											<img src="./index_assets/img/mysql.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="javascript:void(0)">MySQL</a>
-										</h4>
-										<p class="card-description">MySQL 是一個小型關聯式資料庫管理系統，被廣泛地應用在中小型網站中。</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="javascript:void(0)">
-											<img src="./index_assets/img/laravel.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="javascript:void(0)">Laravel</a>
-										</h4>
-										<p class="card-description">Laravel 是近年來相當熱門的PHP框架，用於製作網頁的 MVC 架構。</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane" id="book">
-						<div class="row justify-content-center">
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="https://bquiz.mackliu.com/index.php" target="_blank">
-											<img src="./index_assets/img/bquiz_mackliu.png" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="https://bquiz.mackliu.com/index.php" target="_blank">網頁設計乙級技術士解題網</a>
-										</h4>
-										<p class="card-description">作者: mackliu</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="https://bquiz.kento520.tw/" target="_blank">
-											<img src="./index_assets/img/bquiz_kento.png" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="https://bquiz.kento520.tw/" target="_blank">網頁設計乙級術科解析</a>
-										</h4>
-										<p class="card-description">作者: Kento</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="https://summer10920.github.io/" target="_blank">
-											<img src="./index_assets/img/loki.jpg" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="https://summer10920.github.io/" target="_blank">洛奇的邪惡組織手札</a>
-										</h4>
-										<p class="card-description">作者: 洛奇數位設計</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="https://rogeraabbccdd.github.io/F2E-book" target="_blank">
-											<img src="./index_assets/img/f2e_kento.png" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="https://rogeraabbccdd.github.io/F2E-book" target="_blank">泰山職訓前端班課程講義</a>
-										</h4>
-										<p class="card-description">作者: Kento</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="https://powerkaifu.github.io/" target="_blank">
-											<img src="./index_assets/img/kaifu.png" alt="">
-										</a>
-									</div>
-									<div class="card-body text-center">
-										<h4 class="card-title">
-											<a href="https://powerkaifu.github.io/" target="_blank">樂遊前端趣</a>
-										</h4>
-										<p class="card-description">作者: Kai-Fu Chang</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="tab-pane" id="classroom">
 						<div class="row justify-content-center">
 							<div class="col-12 col-lg-6">
@@ -462,20 +312,6 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-12 col-lg-6">
-								<div class="card card-product card-plain">
-									<div class="card-header card-header-image">
-										<a href="#pablo">
-											<img src="./index_assets/img/1114.jpg" alt="">
-										</a>
-										<div class="colored-shadow" style="background-image: url('./index_assets/img/1114.jpg'); opacity: 1;"></div>
-									</div>
-									<div class="card-body">
-										<h4 class="card-title">寬敞明亮舒適的空間</h4>
-										<p class="card-description">提供學員專心學習的環境</p>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -485,9 +321,10 @@
 
 	<div class="section section-blog">
 		<div class="container">
-			<h2 class="section-title text-center" id="collections">學員作品</h2>
-			<div class="row justify-content-center">
-			</div>
+			<!-- 
+				<h2 class="section-title text-center" id="collections">學員作品</h2>
+				<div class="row justify-content-center"></div> 
+			-->
 			<h2 class="section-title text-center" id="discord">課程諮詢</h2>
 			<div class="row justify-content-center">
 				<div class="col-10 text-center">
@@ -506,39 +343,7 @@
 	<div class="subscribe-line subscribe-line-image" data-parallax="true"
 			 style="background-image: url('./index_assets/img/bg2.png'); background-position: center;">
 		<div class="container">
-			<div class="row" id="go">
-				<div class="col-lg-3 col-md-6">
-					<div class="card card-pricing card-plain">
-						<div class="card-body ">
-							<h4 class="card-category text-white">前端網頁技術與AI應用1期</h4>
-							<div class="icon text-white">
-								<i class="fas fa-laptop-code"></i>
-							</div>
-							<h3 class="card-title text-white">920小時</h3>
-							<p class="card-description text-white">
-								報名日期：114/12/04 ~ 115/02/04<br>
-								訓練日期：115/03/16 ~ 115/09/01
-							</p>
-							<a href="https://its.taiwanjobs.gov.tw/Course/Detail?ID=159268" class="btn btn-white btn-round" target="_blank">立即報名</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="card card-pricing card-plain">
-						<div class="card-body ">
-							<h4 class="card-category text-white">前端網頁技術與AI應用2期</h4>
-							<div class="icon text-white">
-								<i class="fas fa-laptop-code"></i>
-							</div>
-							<h3 class="card-title text-white">920小時</h3>
-							<p class="card-description text-white">
-								報名日期：115/05/07 ~ 115/08/07<br>
-								訓練日期：115/09/08 ~ 116/03/09
-							</p>
-							<a href="https://its.taiwanjobs.gov.tw/Course/Detail?ID=159269" class="btn btn-white btn-round" target="_blank">立即報名</a>
-						</div>
-					</div>
-				</div>
+			<div class="row justify-content-center" id="go">
 				<div class="col-lg-3 col-md-6">
 					<div class="card card-pricing card-plain">
 						<div class="card-body ">
@@ -630,135 +435,15 @@
 		}
 
 		const collections = [
-			{
-				student: '鄭宇翔',
-				name: '訂便當',
-				image: './index_assets/img/works/dinbendon.jpg',
-				links: [
-					{ type: 'github', url: 'https://github.com/rogeraabbccdd/PHP-DinBenDon' },
-					{ type: 'link', url: 'https://dinbendon.kento520.tw/' }
-				]
-			},
-			{
-				student: '鄭宇翔',
-				name: 'Findjobs',
-				image: './index_assets/img/works/findjobs.png',
-				links: [
-					{ type: 'link', url: 'http://220.128.133.15/findjobs/public/' }
-				]
-			},
-			{
-				student: '蔡昀容',
-				name: '夢百貨',
-				image: './index_assets/img/works/110302.jpg',
-				links: [
-					{ type: 'link', url: 'https://blackcat0708.github.io/DreamDepartmentStore-front/#/' }
-				]
-			},
-			{
-				student: '董元琪',
-				name: 'Matching TRPG',
-				image: './index_assets/img/works/111302.png',
-				links: [
-					{ type: 'link', url: 'https://chichitung.github.io/MatchingTRPG-front/#/' }
-				]
-			},
-			{
-				student: '仲崇安',
-				name: 'Voice Land',
-				image: './index_assets/img/works/111305.png',
-				links: [
-					{ type: 'link', url: 'https://josh19961201.github.io/VoiceLand_front/#/' }
-				]
-			},
-			{
-				student: '楊詠茜',
-				name: '桌下吧',
-				image: './index_assets/img/works/111306.png',
-				links: [
-					{ type: 'link', url: 'https://cloris222.github.io/quasar-project/#/' }
-				]
-			},
-			{
-				student: '黃姿瑄',
-				name: '團購趣',
-				image: './index_assets/img/works/111308.png',
-				links: [
-					{ type: 'link', url: 'https://a733181.github.io/2022-buytogether/#/' }
-				]
-			},
-			{
-				student: '許凱炫',
-				name: '一個地方',
-				image: './index_assets/img/works/111309.png',
-				links: [
-					{ type: 'link', url: 'https://qweasd333ee.github.io/a-place-bar-front/' }
-				]
-			},
-			{
-				student: '徐嘉伶',
-				name: 'AZ.ZERO',
-				image: './index_assets/img/works/111310.png',
-				links: [
-					{ type: 'link', url: 'https://lisia229.github.io/AZFront/#/' }
-				]
-			},
-			{
-				student: '郭思緯',
-				name: 'Show Time',
-				image: './index_assets/img/works/111311.png',
-				links: [
-					{ type: 'link', url: 'https://kkone0275.github.io/top-free-time-front/#/' }
-				]
-			},
-			{
-				student: '王政文',
-				name: 'Ocean',
-				image: './index_assets/img/works/111312.png',
-				links: [
-					{ type: 'link', url: 'https://nailshort.github.io/Ocean-front/#/' }
-				]
-			},
-			{
-				student: '胡俊宇',
-				name: '揪遊',
-				image: './index_assets/img/works/111313.png',
-				links: [
-					{ type: 'link', url: 'https://lilmax922.github.io/JoYo-Front/#/' }
-				]
-			},
-			{
-				student: '張雅涵',
-				name: 'Sunday',
-				image: './index_assets/img/works/111314.png',
-				links: [
-					{ type: 'link', url: 'https://vvn719.github.io/SUNDAY-vue-project/#/' }
-				]
-			},
-			{
-				student: '黃佳琦',
-				name: '綠善生活農場',
-				image: './index_assets/img/works/111315.png',
-				links: [
-					{ type: 'link', url: 'https://gagiherdesign.github.io/susi-front/#/' }
-				]
-			},
-			{
-				student: '蔡文瑜',
-				name: 'BCoffee',
-				image: './index_assets/img/works/111319.png',
-				links: [
-					{ type: 'link', url: 'https://pato830729.github.io/BCcoffee-front/#/' }
-				]
-			},
-			{
-				student: '蘇俞甄',
-				name: 'MAUNA COFFEE',
-				image: './index_assets/img/works/111322.png',
-				links: [
-					{ type: 'link', url: 'https://a5a5aa.github.io/TSFP-front/#/' }
-				]
-			}
+			// {
+			// 	student: '鄭宇翔',
+			// 	name: '訂便當',
+			// 	image: './index_assets/img/works/dinbendon.jpg',
+			// 	links: [
+			// 		{ type: 'github', url: 'https://github.com/rogeraabbccdd/PHP-DinBenDon' },
+			// 		{ type: 'link', url: 'https://dinbendon.kento520.tw/' }
+			// 	]
+			// },
 		]
 
 		for (const collection of collections) {
